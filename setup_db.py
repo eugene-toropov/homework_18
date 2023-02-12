@@ -1,5 +1,3 @@
+from flask_sqlalchemy import SQLAlchemy  # Импортируем необходимый пакет
 
-
-# from flask_sqlalchemy import SQLAlchemy
-#
-# db = SQLAlchemy()
+db = SQLAlchemy()  # Создаем объект подключения к базе данных
